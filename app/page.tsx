@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/LandingPage/AboutSection";
 import FeatureSection from "@/components/LandingPage/FeatureSection";
+import Footer from "@/components/LandingPage/Footer";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
     <Hero />
     <AboutSection />
     <FeatureSection />
+    <Footer/>
    </div>
   );
 }

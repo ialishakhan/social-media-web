@@ -29,8 +29,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require
-    ("tailwindcss-textshadow")
-  ],
+  plugins: [],
 };
 export default config;
